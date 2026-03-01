@@ -6,7 +6,19 @@ An interactive visualization app for the three-layer structure of Extreme Progra
 - **Principles** — Click to reveal the values and practices they bridge
 - **Practices** — Hover to trace back up to the underlying values
 
-## Tech Stack
+## Why "Bridge"?
+
+XP's values and principles don't always map one-to-one. For example, the value **Feedback** and the principle **Mutual Benefit** have no direct correspondence. Yet at the practice layer, **Pair Programming** embodies both at once.
+
+| Layer | Element | How Pair Programming connects |
+|---|---|---|
+| Value | Feedback | Your pair reviews code the instant you write it — the shortest possible feedback loop |
+| Principle | Mutual Benefit | Both partners share knowledge, benefiting each other now and the whole team in the future |
+| Practice | Pair Programming | A concrete practice that bridges the value and principle above |
+
+Practices act as **bridges** that link values and principles which otherwise appear unrelated. Visualizing these cross-cutting connections is exactly what this app is for.
+
+## Technology Stack
 
 - React 18
 - Vite 6
