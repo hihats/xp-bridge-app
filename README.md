@@ -28,7 +28,7 @@ Practices act as **bridges** that link values and principles which otherwise app
 
 This app's UI requires many elements to change highlight state in response to a single hover or click. React's declarative model — where state changes automatically reflect in the UI — fits this pattern well. Achieving the same coordinated updates with Vanilla JS would become increasingly cumbersome as the number of elements grows.
 
-Svelte or Preact could handle an app of this scale equally well. React was chosen because team members are most likely to have prior experience with it, and its ecosystem offers the broadest options for future extensions such as routing or testing infrastructure.
+Svelte or Preact could handle an app of this scale equally well. 
 
 ## Local Development
 
