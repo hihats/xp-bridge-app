@@ -6,6 +6,16 @@ An interactive visualization app for the three-layer structure of Extreme Progra
 - **Principles** — Click to reveal the values and practices they bridge
 - **Practices** — Hover to trace back up to the underlying values
 
+## The Original Concept
+
+In *Extreme Programming Explained* 2nd edition (2004), Kent Beck describes XP's structure as three layers — Values, Principles, and Practices — where principles *bridge* the gap between abstract values and concrete practices.
+
+<p align="center">
+  <img src="docs/xp-bridge-original.png" alt="XP three-layer structure — from Kent Beck, Extreme Programming Explained 2nd ed." width="480">
+</p>
+
+This app turns that static diagram into an interactive experience, letting you explore the relationships across all three layers through hover and click.
+
 ## Why "Bridge"?
 
 XP's values and principles don't always map one-to-one. For example, the value **Feedback** and the principle **Mutual Benefit** have no direct correspondence. Yet at the practice layer, **Pair Programming** embodies both at once.
@@ -92,6 +102,8 @@ xp-bridge-app/
 ├── package.json
 ├── vite.config.js
 ├── vercel.json             # Vercel config
+├── docs/
+│   └── xp-bridge-original.png # Three-layer concept diagram (from the book)
 ├── public/
 │   └── favicon.svg
 ├── src/
