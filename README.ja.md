@@ -6,6 +6,16 @@
 - **原則（Principles）** をクリックすると、橋渡しする価値とプラクティスを表示
 - **プラクティス（Practices）** をホバーすると、逆方向に価値までたどれる
 
+## 元になった概念
+
+Kent Beck 著『Extreme Programming Explained』第2版（2004）では、XPの構造を「価値（Values）」「原則（Principles）」「プラクティス（Practices）」の3層で説明し、原則が価値とプラクティスを橋渡し（bridge）する図が示されている。
+
+<p align="center">
+  <img src="docs/xp-bridge-original.png" alt="XPの3層構造：価値・原則・プラクティスの橋渡し — Kent Beck『Extreme Programming Explained』第2版より" width="480">
+</p>
+
+この図をより理解できるように、インタラクティブにホバーやクリックで操作することで、3層間の関係性を直感的に探索できるアプリケーションにした
+
 ## なぜ「Bridge」なのか？
 
 XPの価値と原則は必ずしも1対1で対応しない。たとえば価値の「フィードバック」と原則の「相互利益」は直接的な対応関係を持たない。しかしプラクティスの層に降りると、**ペアプログラミング**のように両方を同時に体現するものが見つかる。
@@ -90,6 +100,8 @@ xp-bridge-app/
 ├── package.json
 ├── vite.config.js
 ├── vercel.json             # Vercel 設定
+├── docs/
+│   └── xp-bridge-original.png # 3層構造の概念図（原著より）
 ├── public/
 │   └── favicon.svg
 ├── src/
