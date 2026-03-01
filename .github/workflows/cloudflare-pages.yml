@@ -22,6 +22,8 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+      - run: npm install wrangler@4.69.0 --save-dev
+
       - uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
