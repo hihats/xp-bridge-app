@@ -139,6 +139,175 @@ const icons = {
       <path d="M18 11 L14 17 L17 17 L14 23" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
     </Icon>
   ),
+
+  // ── New Primary Practices ──
+  sitTogether: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <rect x="4" y="18" width="24" height="3" rx="1.5" stroke={color} strokeWidth="1.5" fill={`${color}12`} />
+      <circle cx="10" cy="12" r="2.5" stroke={color} strokeWidth="1.4" fill="none" />
+      <circle cx="22" cy="12" r="2.5" stroke={color} strokeWidth="1.4" fill="none" />
+      <circle cx="16" cy="10" r="2.5" stroke={color} strokeWidth="1.4" fill="none" />
+      <path d="M10 14.5 L10 18" stroke={color} strokeWidth="1.3" />
+      <path d="M22 14.5 L22 18" stroke={color} strokeWidth="1.3" />
+      <path d="M16 12.5 L16 18" stroke={color} strokeWidth="1.3" />
+    </Icon>
+  ),
+
+  informativeWorkspace: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <rect x="4" y="4" width="24" height="18" rx="2" stroke={color} strokeWidth="1.5" fill="none" />
+      <line x1="4" y1="10" x2="28" y2="10" stroke={color} strokeWidth="1.2" opacity="0.4" />
+      <rect x="7" y="13" width="8" height="6" rx="1" stroke={color} strokeWidth="1.2" fill={`${color}15`} />
+      <path d="M18 13 L25 13 M18 16 L25 16 M18 19 L23 19" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.5" />
+      <circle cx="8" cy="7" r="1" fill={color} opacity="0.5" />
+      <circle cx="11" cy="7" r="1" fill={color} opacity="0.3" />
+      <path d="M14 25 L18 25" stroke={color} strokeWidth="2" strokeLinecap="round" />
+    </Icon>
+  ),
+
+  energizedWork: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <circle cx="16" cy="16" r="10" stroke={color} strokeWidth="1.5" fill="none" />
+      <path d="M16 6 L16 8 M16 24 L16 26 M6 16 L8 16 M24 16 L26 16" stroke={color} strokeWidth="1.5" strokeLinecap="round" />
+      <path d="M8.5 8.5 L10 10 M23.5 8.5 L22 10 M8.5 23.5 L10 22 M23.5 23.5 L22 22" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.5" />
+      <circle cx="16" cy="16" r="4" fill={`${color}25`} stroke={color} strokeWidth="1.2" />
+    </Icon>
+  ),
+
+  stories: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <rect x="5" y="4" width="22" height="24" rx="2" stroke={color} strokeWidth="1.5" fill="none" />
+      <path d="M9 10 L23 10 M9 14 L20 14 M9 18 L23 18 M9 22 L17 22" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.5" />
+      <path d="M5 4 L16 4 L16 12 L12 9 L8 12 L8 4" stroke={color} strokeWidth="1.3" fill={`${color}20`} />
+    </Icon>
+  ),
+
+  slack: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <rect x="4" y="8" width="24" height="16" rx="2" stroke={color} strokeWidth="1.5" fill="none" />
+      <line x1="8" y1="14" x2="20" y2="14" stroke={color} strokeWidth="1.8" strokeLinecap="round" />
+      <line x1="8" y1="18" x2="14" y2="18" stroke={color} strokeWidth="1.8" strokeLinecap="round" opacity="0.4" />
+      <path d="M22 14 L24 14" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeDasharray="1 3" opacity="0.3" />
+    </Icon>
+  ),
+
+  // ── Corollary Practices ──
+  realCustomerInvolvement: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <circle cx="12" cy="10" r="3.5" stroke={color} strokeWidth="1.4" fill="none" />
+      <path d="M12 13.5 C7 15 5 18 5 21" stroke={color} strokeWidth="1.4" strokeLinecap="round" fill="none" />
+      <circle cx="22" cy="10" r="3.5" stroke={color} strokeWidth="1.4" fill={`${color}15`} />
+      <path d="M22 13.5 C27 15 29 18 29 21" stroke={color} strokeWidth="1.4" strokeLinecap="round" fill="none" />
+      <path d="M14 19 L18 17 L20 21 L14 19 Z" stroke={color} strokeWidth="1.2" fill={`${color}20`} />
+    </Icon>
+  ),
+
+  incrementalDeployment: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <rect x="5" y="5" width="7" height="7" rx="1.5" stroke={color} strokeWidth="1.3" fill={`${color}25`} />
+      <rect x="14" y="5" width="7" height="7" rx="1.5" stroke={color} strokeWidth="1.3" fill={`${color}18`} />
+      <rect x="5" y="14" width="7" height="7" rx="1.5" stroke={color} strokeWidth="1.3" fill={`${color}12`} />
+      <rect x="14" y="14" width="7" height="7" rx="1.5" stroke={color} strokeWidth="1.3" fill="none" strokeDasharray="2 2" />
+      <rect x="23" y="5" width="5" height="7" rx="1.5" stroke={color} strokeWidth="1.2" fill="none" strokeDasharray="2 2" opacity="0.4" />
+      <path d="M16 24 L14 27 L18 27 Z" stroke={color} strokeWidth="1.2" fill={`${color}15`} />
+    </Icon>
+  ),
+
+  teamContinuity: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <circle cx="10" cy="10" r="2.5" stroke={color} strokeWidth="1.4" fill="none" />
+      <circle cx="22" cy="10" r="2.5" stroke={color} strokeWidth="1.4" fill="none" />
+      <circle cx="16" cy="22" r="2.5" stroke={color} strokeWidth="1.4" fill="none" />
+      <path d="M12.5 11 L14 20 M19.5 11 L18 20" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.4" />
+      <path d="M7 16 Q10 20 14 22 M25 16 Q22 20 18.5 22" stroke={color} strokeWidth="1.4" fill="none" strokeLinecap="round" strokeDasharray="3 2" />
+      <circle cx="16" cy="16" r="5" stroke={color} strokeWidth="1" fill="none" strokeDasharray="2 3" opacity="0.3" />
+    </Icon>
+  ),
+
+  shrinkingTeams: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <circle cx="8" cy="12" r="2.5" stroke={color} strokeWidth="1.4" fill="none" />
+      <circle cx="16" cy="8" r="2.5" stroke={color} strokeWidth="1.4" fill="none" />
+      <circle cx="24" cy="12" r="2.5" stroke={color} strokeWidth="1.4" fill="none" />
+      <circle cx="12" cy="20" r="2.5" stroke={color} strokeWidth="1.4" fill={`${color}15`} />
+      <circle cx="20" cy="20" r="2.5" stroke={color} strokeWidth="1.4" fill={`${color}15`} />
+      <path d="M10 14 L12 18 M22 14 L20 18" stroke={color} strokeWidth="1.2" opacity="0.3" />
+      <path d="M5 26 L27 26" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.2" />
+      <path d="M8 26 L16 26 L24 26" stroke={color} strokeWidth="1.5" strokeLinecap="round" />
+      <path d="M14 24 L16 26 L18 24" stroke={color} strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+    </Icon>
+  ),
+
+  rootCauseAnalysis: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <circle cx="16" cy="10" r="6" stroke={color} strokeWidth="1.5" fill="none" />
+      <path d="M20 14 L22 16" stroke={color} strokeWidth="2" strokeLinecap="round" />
+      <path d="M16 16 L16 20 L12 24" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+      <path d="M16 20 L20 24" stroke={color} strokeWidth="1.5" strokeLinecap="round" fill="none" />
+      <circle cx="12" cy="24" r="1.5" fill={`${color}40`} />
+      <circle cx="20" cy="24" r="1.5" fill={`${color}40`} />
+      <path d="M14 8 L15 10 L18 9" stroke={color} strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+    </Icon>
+  ),
+
+  sharedCode: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <path d="M12 10 L7 16 L12 22" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+      <path d="M20 10 L25 16 L20 22" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+      <line x1="18" y1="8" x2="14" y2="24" stroke={color} strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
+      <circle cx="6" cy="16" r="1.5" fill={`${color}30`} />
+      <circle cx="26" cy="16" r="1.5" fill={`${color}30`} />
+    </Icon>
+  ),
+
+  codeAndTests: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <rect x="4" y="4" width="11" height="14" rx="2" stroke={color} strokeWidth="1.4" fill="none" />
+      <path d="M7 8 L12 8 M7 11 L10 11" stroke={color} strokeWidth="1.1" strokeLinecap="round" opacity="0.5" />
+      <rect x="17" y="14" width="11" height="14" rx="2" stroke={color} strokeWidth="1.4" fill={`${color}10`} />
+      <path d="M20 19 L22 21 L25 18" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+      <path d="M20 24 L25 24" stroke={color} strokeWidth="1.1" strokeLinecap="round" opacity="0.3" />
+      <path d="M13 14 L19 18" stroke={color} strokeWidth="1.2" strokeLinecap="round" strokeDasharray="2 2" opacity="0.4" />
+    </Icon>
+  ),
+
+  singleCodeBase: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <rect x="8" y="6" width="16" height="20" rx="2" stroke={color} strokeWidth="1.5" fill="none" />
+      <path d="M12 11 L20 11 M12 15 L18 15 M12 19 L20 19" stroke={color} strokeWidth="1.1" strokeLinecap="round" opacity="0.5" />
+      <path d="M14 2 L14 6 M18 2 L18 6" stroke={color} strokeWidth="1.3" strokeLinecap="round" />
+      <path d="M14 2 L18 2" stroke={color} strokeWidth="1.3" strokeLinecap="round" />
+      <circle cx="16" cy="24" r="1.2" fill={color} opacity="0.4" />
+    </Icon>
+  ),
+
+  dailyDeployment: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <path d="M16 4 L16 18" stroke={color} strokeWidth="1.8" strokeLinecap="round" />
+      <path d="M11 14 L16 19 L21 14" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+      <path d="M6 22 L26 22" stroke={color} strokeWidth="1.5" strokeLinecap="round" />
+      <path d="M8 25 L24 25" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.4" />
+      <path d="M10 28 L22 28" stroke={color} strokeWidth="1" strokeLinecap="round" opacity="0.2" />
+    </Icon>
+  ),
+
+  negotiatedScopeContract: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <rect x="6" y="4" width="20" height="24" rx="2" stroke={color} strokeWidth="1.5" fill="none" />
+      <path d="M10 10 L22 10 M10 14 L22 14" stroke={color} strokeWidth="1.1" strokeLinecap="round" opacity="0.4" />
+      <path d="M10 18 L16 18" stroke={color} strokeWidth="1.1" strokeLinecap="round" opacity="0.4" />
+      <path d="M14 21 L17 24 L22 19" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+      <path d="M12 4 L12 7 M20 4 L20 7" stroke={color} strokeWidth="1.3" strokeLinecap="round" />
+    </Icon>
+  ),
+
+  payPerUse: ({ size, color }) => (
+    <Icon size={size} color={color}>
+      <circle cx="16" cy="16" r="10" stroke={color} strokeWidth="1.5" fill="none" />
+      <path d="M16 8 L16 24" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.3" />
+      <path d="M19 11 C19 11 18 9 16 9 C13.5 9 12 10.5 12 12 C12 13.5 13.5 14 16 14.5 C18.5 15 20 16 20 18 C20 20 18.5 21.5 16 21.5 C14 21.5 13 20.5 13 20.5" stroke={color} strokeWidth="1.6" strokeLinecap="round" fill="none" />
+    </Icon>
+  ),
 };
 
 /* ─── Data ─── */
@@ -151,37 +320,58 @@ const valuesData = [
 ];
 
 const principlesData = [
-  { name: "人間性", connects: ["コミュニケーション", "リスペクト"], practices: ["ペアプログラミング", "チーム全体"] },
-  { name: "経済性", connects: ["シンプリシティ", "フィードバック"], practices: ["インクリメンタルな設計", "週次サイクル"] },
-  { name: "相互利益", connects: ["リスペクト", "コミュニケーション"], practices: ["テストファーストプログラミング", "ペアプログラミング"] },
-  { name: "改善", connects: ["フィードバック", "勇気"], practices: ["継続的インテグレーション", "インクリメンタルな設計"] },
-  { name: "多様性", connects: ["リスペクト", "コミュニケーション"], practices: ["チーム全体", "ペアプログラミング"] },
-  { name: "振り返り", connects: ["フィードバック", "コミュニケーション"], practices: ["週次サイクル", "四半期サイクル"] },
-  { name: "流れ", connects: ["フィードバック", "シンプリシティ"], practices: ["継続的インテグレーション", "10分ビルド"] },
-  { name: "機会", connects: ["勇気", "フィードバック"], practices: ["インクリメンタルな設計", "テストファーストプログラミング"] },
-  { name: "冗長性", connects: ["コミュニケーション", "フィードバック"], practices: ["ペアプログラミング", "テストファーストプログラミング"] },
-  { name: "失敗", connects: ["勇気", "フィードバック"], practices: ["テストファーストプログラミング", "継続的インテグレーション"] },
-  { name: "品質", connects: ["シンプリシティ", "フィードバック"], practices: ["テストファーストプログラミング", "10分ビルド"] },
-  { name: "ベイビーステップ", connects: ["シンプリシティ", "勇気"], practices: ["テストファーストプログラミング", "継続的インテグレーション"] },
-  { name: "責任の引き受け", connects: ["リスペクト", "勇気"], practices: ["週次サイクル", "チーム全体"] },
-  { name: "自己相似性", connects: ["フィードバック"], practices: ["テストファーストプログラミング", "週次サイクル", "四半期サイクル"] },
+  { name: "人間性", connects: ["コミュニケーション", "リスペクト"], practices: ["ペアプログラミング", "チーム全体", "いきいきとした仕事", "全員同席"] },
+  { name: "経済性", connects: ["シンプリシティ", "フィードバック"], practices: ["インクリメンタルな設計", "週次サイクル", "ゆとり", "利用都度課金", "交渉によるスコープ契約"] },
+  { name: "相互利益", connects: ["リスペクト", "コミュニケーション"], practices: ["テストファーストプログラミング", "ペアプログラミング", "インクリメンタルな設計", "コードの共有"] },
+  { name: "改善", connects: ["フィードバック", "勇気"], practices: ["継続的インテグレーション", "インクリメンタルな設計", "根本原因分析", "チームの縮小"] },
+  { name: "多様性", connects: ["リスペクト", "コミュニケーション"], practices: ["チーム全体", "ペアプログラミング", "本物の顧客参加"] },
+  { name: "振り返り", connects: ["フィードバック", "コミュニケーション"], practices: ["週次サイクル", "四半期サイクル", "根本原因分析"] },
+  { name: "流れ", connects: ["フィードバック", "シンプリシティ"], practices: ["継続的インテグレーション", "10分ビルド", "デイリーデプロイ", "ストーリー"] },
+  { name: "機会", connects: ["勇気", "フィードバック"], practices: ["インクリメンタルな設計", "テストファーストプログラミング", "ストーリー"] },
+  { name: "冗長性", connects: ["コミュニケーション", "フィードバック"], practices: ["ペアプログラミング", "テストファーストプログラミング", "継続的インテグレーション", "コードとテスト"] },
+  { name: "失敗", connects: ["勇気", "フィードバック"], practices: ["テストファーストプログラミング", "継続的インテグレーション", "根本原因分析"] },
+  { name: "品質", connects: ["シンプリシティ", "フィードバック"], practices: ["テストファーストプログラミング", "10分ビルド", "コードとテスト", "単一のコードベース"] },
+  { name: "ベイビーステップ", connects: ["シンプリシティ", "勇気"], practices: ["テストファーストプログラミング", "継続的インテグレーション", "インクリメンタルなデプロイ", "デイリーデプロイ"] },
+  { name: "責任の引き受け", connects: ["リスペクト", "勇気"], practices: ["週次サイクル", "チーム全体", "コードの共有", "チームの継続"] },
+  { name: "自己相似性", connects: ["フィードバック"], practices: ["テストファーストプログラミング", "週次サイクル", "四半期サイクル", "情報満載のワークスペース"] },
 ];
 
 const practicesData = [
-  { name: "ペアプログラミング", icon: "pairProgramming", category: "team" },
-  { name: "テストファーストプログラミング", icon: "tdd", category: "code" },
-  { name: "継続的インテグレーション", icon: "ci", category: "code" },
-  { name: "インクリメンタルな設計", icon: "incrementalDesign", category: "code" },
-  { name: "週次サイクル", icon: "weeklyCycle", category: "plan" },
-  { name: "四半期サイクル", icon: "quarterlyCycle", category: "plan" },
-  { name: "チーム全体", icon: "wholeTeam", category: "team" },
-  { name: "10分ビルド", icon: "tenMinBuild", category: "code" },
+  // 共同 (shared)
+  { name: "チーム全体", icon: "wholeTeam", category: "shared" },
+  { name: "全員同席", icon: "sitTogether", category: "shared" },
+  { name: "情報満載のワークスペース", icon: "informativeWorkspace", category: "shared" },
+  { name: "いきいきとした仕事", icon: "energizedWork", category: "shared" },
+  { name: "根本原因分析", icon: "rootCauseAnalysis", category: "shared" },
+  // 開発 (dev)
+  { name: "ペアプログラミング", icon: "pairProgramming", category: "dev" },
+  { name: "テストファーストプログラミング", icon: "tdd", category: "dev" },
+  { name: "継続的インテグレーション", icon: "ci", category: "dev" },
+  { name: "インクリメンタルな設計", icon: "incrementalDesign", category: "dev" },
+  { name: "10分ビルド", icon: "tenMinBuild", category: "dev" },
+  { name: "コードの共有", icon: "sharedCode", category: "dev" },
+  { name: "コードとテスト", icon: "codeAndTests", category: "dev" },
+  { name: "単一のコードベース", icon: "singleCodeBase", category: "dev" },
+  { name: "デイリーデプロイ", icon: "dailyDeployment", category: "dev" },
+  // 管理者 (mgmt)
+  { name: "週次サイクル", icon: "weeklyCycle", category: "mgmt" },
+  { name: "四半期サイクル", icon: "quarterlyCycle", category: "mgmt" },
+  { name: "ゆとり", icon: "slack", category: "mgmt" },
+  { name: "インクリメンタルなデプロイ", icon: "incrementalDeployment", category: "mgmt" },
+  { name: "チームの継続", icon: "teamContinuity", category: "mgmt" },
+  { name: "チームの縮小", icon: "shrinkingTeams", category: "mgmt" },
+  // 顧客 (customer)
+  { name: "ストーリー", icon: "stories", category: "customer" },
+  { name: "本物の顧客参加", icon: "realCustomerInvolvement", category: "customer" },
+  { name: "交渉によるスコープ契約", icon: "negotiatedScopeContract", category: "customer" },
+  { name: "利用都度課金", icon: "payPerUse", category: "customer" },
 ];
 
 const categoryColors = {
-  team: { bg: "#dbeafe", border: "#3b82f6" },
-  code: { bg: "#dcfce7", border: "#22c55e" },
-  plan: { bg: "#fef3c7", border: "#f59e0b" },
+  shared:   { bg: "#dbeafe", border: "#3b82f6" },
+  dev:      { bg: "#dcfce7", border: "#22c55e" },
+  mgmt:     { bg: "#fef3c7", border: "#f59e0b" },
+  customer: { bg: "#fce7f3", border: "#ec4899" },
 };
 
 /* ─── Component ─── */
@@ -423,7 +613,7 @@ export default function XPBridge() {
                       border: `1px solid ${c.border}44`,
                     }}
                   >
-                    {p.category === "team" ? "チーム" : p.category === "code" ? "コード" : "計画"}
+                    {{ shared: "共同", dev: "開発", mgmt: "管理者", customer: "顧客" }[p.category]}
                   </div>
                 </div>
               );
